@@ -28,6 +28,9 @@ const HomePage = (props) => {
   localStorage.setItem('favorites', JSON.stringify(favorites))
   const addToFavorites = (movieId) => true
 
+// const playing = movies.filter(m => m.playing)
+
+
   return (
     <PageTemplate
       title="Discover Movies"

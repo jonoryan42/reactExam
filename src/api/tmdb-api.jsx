@@ -88,3 +88,21 @@ export const getMovie = (args) => {
       throw error
    });
   };
+
+  // export const getNowPlaying = ({ queryKey }) => {
+  //   const [, idPart] = queryKey;
+  //   const { id } = idPart;
+  //   return fetch(
+  //       'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_release_type=2|3&release_date.gte={min_date}&release_date.lte={max_date}'
+  //         ).then( (response) => {
+  //     if (!response.ok) {
+  //       return response.json().then((error) => {
+  //         throw new Error(error.status_message || "Something went wrong");
+  //       });
+  //     }
+  //     return response.json();
+  //   })
+  //   .catch((error) => {
+  //     throw error
+  //  });
+  // };
