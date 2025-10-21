@@ -1,6 +1,6 @@
 # React In-class Exam, October 2025
 
-Jonathon Ryan, 20101393
+Jonathon Ryan, 20101393, SSD
 
 ## 1. Setup instructions
 
